@@ -1,9 +1,7 @@
-from asyncio.log import logger
 from subprocess import Popen, PIPE
 import subprocess
 import sys
 from time import sleep
-from getpass import getpass
 import logging
 from os.path import exists
 import re
