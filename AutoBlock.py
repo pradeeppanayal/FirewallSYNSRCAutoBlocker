@@ -7,8 +7,6 @@ from getpass import getpass
 import logging
 from os.path import exists
 import re
-import shlex
-from urllib import response
 
 #################################s
 #                               #
@@ -135,4 +133,3 @@ if __name__=='__main__':
     ipBlocker = IPBlocker()
     scheduler =  Scheduler(args[CHECK_INTERVAL], firewallMonitor, ipBlocker )
     scheduler.start()
-
