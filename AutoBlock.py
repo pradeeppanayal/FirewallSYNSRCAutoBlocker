@@ -21,8 +21,8 @@ DEFAULT_INTERVAL = 2#sec
 class FireWallMonitor(object):
     def __init__(self, logFilePath):
         self.logFile = logFilePath
-        #self._grepCommand ='grep' #
-        self._grepCommand = 'findstr'
+        self._grepCommand ='grep' #
+        #self._grepCommand = 'findstr'
         self._grepkeyword = 'Firewall' 
         
     def getIps(self):
