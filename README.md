@@ -2,8 +2,11 @@
 Python script to identify the source IP from firwall logs and block them 
 
 # Working
+
 Step 1: The script will identify the lines which contains keywords `Firewall` and `SYN`
+
 Step 2: Extract the the src ip from the line identified 
+
 Step 3: Register the IP address to block list using the command `csf -d <IP Address>` 
 
 # How to run
