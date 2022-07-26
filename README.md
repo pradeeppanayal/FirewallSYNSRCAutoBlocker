@@ -19,4 +19,4 @@ Example
     
 Example with custom message file read interval
 
-    python AutoBlock.py  /var/log/messages admin 5
+    python AutoBlock.py  /var/log/messages 5
